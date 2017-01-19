@@ -1,0 +1,30 @@
+{
+  "name": "ehrlichandreas/skeleton-library",
+  "description": "Add a description here",
+  "keywords": [
+    "add some keywords here"
+  ],
+  "homepage": "https://github.com/ehrlichandreas/skeleton-library/",
+  "license": "MIT License",
+  "minimum-stability": "stable",
+  "version": "0.0.0",
+  "authors": [
+    {
+      "name": "Andreas Ehrlich",
+      "email": "ehrlich.andreas@googlemail.com",
+      "homepage": "https://www.facebook.com/Ehrlich.Andreas"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "EhrlichAndreas\\SkeletonLibrary\\": "src/",
+      "EhrlichAndreasTest\\SkeletonLibrary\\": "test/"
+    }
+  },
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "require-dev": {
+  },
+  "repositories": []
+}
